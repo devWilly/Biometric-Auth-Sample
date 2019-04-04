@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">BiometricEx</string>
     <string name="login">Login</string>
+    <string name="bio_sub_title">Login to your account</string>
+    <string name="bio_description">Place your finger on the device home button to verify your identity</string>
+    <string name="bio_negative_button_text">CANCEL</string>
+    <string name="bio_dialog_title_error_text">Biometric Dialog title cannot be null</string>
+    <string name="bio_dialog_sub_title_error_text">Biometric Dialog subtitle cannot be null</string>
+    <string name="bio_dialog_description_error_text">Biometric Dialog description cannot be null</string>
+    <string name="bio_dialog_negative_btn_error_text">Biometric Dialog negative button text cannot be null</string>
 </resources>
