@@ -8,4 +8,5 @@
     <string name="bio_dialog_sub_title_error_text">Biometric Dialog subtitle cannot be null</string>
     <string name="bio_dialog_description_error_text">Biometric Dialog description cannot be null</string>
     <string name="bio_dialog_negative_btn_error_text">Biometric Dialog negative button text cannot be null</string>
+    <string name="biometric_failed">Fingerprint not recognized</string>
 </resources>

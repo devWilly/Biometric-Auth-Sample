@@ -19,7 +19,7 @@ class BiometricManager(
         private val title: String,
         private val subTitle: String,
         private val description: String,
-        private val negativeButtonText: String) {
+        private val negativeButtonText: String): BiometricManagerV23(context, title, subTitle, description, negativeButtonText) {
 
     fun authenticate(@NonNull callback: BiometricCallback) {
         val res = context.resources
@@ -65,10 +65,6 @@ class BiometricManager(
         } else {
             displayBiometricPromptV23(callback)
         }
-    }
-
-    private fun displayBiometricPromptV23(@NonNull callback: BiometricCallback) {
-
     }
 
     @TargetApi(Build.VERSION_CODES.P)
